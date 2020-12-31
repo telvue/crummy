@@ -9,10 +9,10 @@ Gem::Specification.new do |s|
   s.licenses    = ['MIT']
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Zach Inglis", "Andrew Nesbitt"]
+  s.authors = ["Zach Inglis", "Andrew Nesbitt", "Benjamin Liu"]
   s.summary = "Tasty breadcrumbs!"
   s.description = "Crummy is a simple and tasty way to add breadcrumbs to your Rails applications."
-  s.email = "zach+crummy@londonmade.co.uk"
+  s.email = "bliu@telvue.com"
   s.extra_rdoc_files = ["README.md"]
 
   s.files         = `git ls-files`.split("\n")

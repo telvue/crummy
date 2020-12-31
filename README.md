@@ -1,3 +1,6 @@
+# This is a fork of https://github.com/zachinglis/crummy
+The upstream project is no longer maintained.
+
 # Crummy
 
 [![Gem Version](https://badge.fury.io/rb/crummy.png)](http://badge.fury.io/rb/crummy)
