@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "crummy/version"
 
 Gem::Specification.new do |s|
-  s.name = "crummy"
+  s.name = "telvue-crummy"
   s.version = Crummy::VERSION
   s.platform    = Gem::Platform::RUBY
   s.licenses    = ['MIT']
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  s.homepage = "http://github.com/zachinglis/crummy"
+  s.homepage = "http://github.com/telvue/crummy"
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.8}
 
